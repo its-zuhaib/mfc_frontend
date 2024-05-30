@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="static/images/image.jpg" alt="">
+        </div>
+        <div class="form-container" id="login-form">
+            <div class="name-toggle">
+                <div class="name-logo">
+                    <span>Travelguru</span>
+                    <i id="show-pass-eye" class="fa-solid fa-check" style="color: #e13e19;"></i>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="toggle-theme-checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <hr>
+            <div class="form-header">
+                <h1>Sign in to Travelguru</h1>
+                <p>Don't have an account? <a id="signup-link">Sign up</a></p>
+            </div>
+            <hr>
+            <form class="input-container">
+                <input type="text" placeholder="Full name">
+                
+                <input type="email" placeholder="Email">
+                
+                <div class="password-input">
+                    <input type="password" id="password" placeholder="Password">
+                    <i class="fa-solid fa-eye" id="pass-toggle-icon"></i>
+                </div>
+                
+                <button type="submit">Continue</button>
+            </form>
+            <hr>
+            <div class="social-login">
+                <p>- OR -</p>
+                <div class="social-buttons">
+                    <button class="google">
+                        <img src="static/images/google.png" alt="">
+                        <span>Sign in with Google</span>
+                    </button>
+                    <button class="facebook"><img src="static/images/facebook.png" alt=""></button>
+                    <button class="apple"><img src="static/images/instagram.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="static/script/main.js"></script>
+</body>
+</html>
